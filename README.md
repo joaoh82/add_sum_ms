@@ -1,0 +1,1 @@
+curl -d '{"x":"5", "y":"3"}' -H "Content-Type: application/json" -X POST https://expansive-iodine-4243.storyscriptapp.com/add

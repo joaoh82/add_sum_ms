@@ -4,6 +4,6 @@
 
 http server as client
     when client listen method: "post" path: "/add" as request
-        result = joaoh82/add_sum_ms add x:request.arguments["x"] y:request.arguments["y"]
-        request write content:result
+        result = joaoh82/add_sum_ms add x:request.body["x"] y:request.body["y"]
+        request write content:results
 
